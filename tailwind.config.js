@@ -15,6 +15,7 @@ module.exports = {
         'review-background': "url('/images/reviewBg.png')",
         'service-background': "url('/images/servicesBg.png')",
         'contact-background': "url('/images/contactBg.png')",
+        'footer-background': "url('/images/footerBg.png')",
       },
       colors: {
         primary: "#EE5025",
@@ -25,6 +26,8 @@ module.exports = {
         boxDescription: "#64607D",
         reviewColor: "#333333",
         greyColor: "#4D5F7A",
+        inputLabelColor: "#252F40",
+        footerBg: "#081029"
        },
        fontFamily: {
         inter: ["Inter", "sans-serif"],

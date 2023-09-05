@@ -32,7 +32,7 @@ const Hero = () => {
               <br />
               Biometric Solutions
             </p>
-            <Button text={"Contact Us"} />
+            <Button text={"Contact Us"} buttonStyles={"rounded-xl text-xl pt-[12px] pb-[12px] pr-[24px] pl-[24px]"} />
           </div>
         </div>
       </div>

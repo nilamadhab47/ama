@@ -1,8 +1,11 @@
+import ContactForm from '@/components/ContactForm'
 import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className=' bg-contact-background bg-cover bg-no-repeat w-full h-[650px] relative'>
+      <ContactForm />
+    </div>
   )
 }
 
