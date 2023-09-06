@@ -11,7 +11,7 @@ const About = () => {
       <div className="about flex">
         <div className="details w-1/2">
             <SectionHeading text={"About"} />
-            <Heading text={"What is Armatura"} headingStyle={"text-header"}/>
+            <Heading text={"What is Armatura"} headingStyle={"text-header mt-6 mb-6"}/>
             <Paragraph text={"Armatura is the world’s leading provider of advanced multi-modal biometric hardware, software and platforms which are based on deep learning and artificial intelligence. Our touchless face, palm and fingerprint matching technology is used in numerous industries which rely on highly secure & accurate identity & access management (IAM)"}  paragraphStyle={"text-black "}/>
             <Paragraph text={"Armatura’s global headquarters is located in Atlanta, GA USA. R&D is located in the U.S. and India. All manufacturing takes place in our 30,000 sq ft Thailand factory.We welcome the chance to partner with you."} paragraphStyle={"text-black "}/>
         </div>
@@ -32,7 +32,7 @@ const About = () => {
         </div>
         <div className="feature-details">
           <SectionHeading text={"Key Feature"} />
-          <Heading text={"Why choose Armatura for biometric solution?"} headingStyle={"text-header"}/>
+          <Heading text={"Why choose Armatura for biometric solution?"} headingStyle={"text-header mt-6 mb-6"}/>
           <Paragraph text={"Empowered by our proprietary technology and patents, Armatura pioneers biometric modules and readers that elevate safety and verification accuracy in both physical and logical security realms. Our seamlessly integratable tools and platforms cater to fast-matching, precise user verification across various devices and applications. Committed to next-gen sec"}  paragraphStyle={"text-black "}/>
           <Paragraph text={"zurity, we ensure biometric data privacy and global compliance. With full adherence to U.S. federal laws, our solutions offer paramount identity and access management (IAM) to safeguard against threats and errors."}  paragraphStyle={"text-black "}/>
         </div>

@@ -25,3 +25,30 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+/* Marquee Animation */
+/* Marquee Animation */
+/* CSS Transition for marquee effect */
+/* Add animation properties to the .animate-marquee class */
+/* Add animation properties to the .animate-marquee-bounce-reverse class */
+/* Add animation properties to the .animate-marquee-bounce-reverse class */
+.animate-marquee-bounce-reverse {
+  animation: marquee-bounce-reverse 10s linear infinite alternate;
+  /* Adjust the duration and timing as needed */
+  transform: translateX(100%); /* Add this to start the animation at the end */
+}
+
+
+
+
+/* Marquee Animation */
+/* Marquee Animation with Bounce and Reverse Effect */
+@keyframes marquee-bounce-reverse {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

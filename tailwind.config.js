@@ -27,7 +27,11 @@ module.exports = {
         reviewColor: "#333333",
         greyColor: "#4D5F7A",
         inputLabelColor: "#252F40",
-        footerBg: "#081029"
+        footerBg: "#081029",
+        hoverBox: "#F2F8FF",
+        navbarBordercolor: "#E45030",
+        logoHoverColor: "#EE5025",
+        logoBgColor: "#081029"
        },
        fontFamily: {
         inter: ["Inter", "sans-serif"],

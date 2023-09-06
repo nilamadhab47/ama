@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
         <div className="sub-nav">
           <ul className="flex justify-center items-center gap-8 font-inter text-xl font-semibold capitalize">
-            <li>Home</li>
+            <li className=" border-b-4 border-navbarBordercolor">Home</li>
             <li>Products</li>
             <li>Solutions</li>
             <li>Blog</li>
