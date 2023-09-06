@@ -19,7 +19,7 @@ const About = () => {
             <Image src={"/images/about-img.png"} alt='bg' width={485} height={484}/>
         </div>
       </div>
-      <div className="feature flex mb-8">
+      <div className="feature flex mb-12">
         <div className="feature-img w-1/2 mr-4">
           <div className="upper flex gap-4 mb-4">
             <FeatureBox src={"/images/face.svg"} headText={"Face Recognition"} description={"Seamless Security : Elevating Access Through Face Recognition"}/>
