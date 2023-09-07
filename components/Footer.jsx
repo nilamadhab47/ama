@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="footerDetails bg-cover bg-no-repeat flex justify-between text-black pt-16 pb-16 pr-[191px] pl-[74px]" style={{backgroundImage: "url('/images/footerBg.png')"}}>
+      <div className="footerDetails bg-cover bg-no-repeat bg-white flex justify-between text-black pt-16 pb-16 pr-[191px] pl-[74px]" style={{backgroundImage: "url('/images/footerBg.png')"}}>
         <div className="logo flex flex-col gap-12">
           <Image
             src={"/images/footerLogo.png"}
