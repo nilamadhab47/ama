@@ -77,20 +77,20 @@ function TestimonialSlider() {
       <div className="relative">
         <div className="testimonial-container">
           <div className="testimonial-content">
-            <p className="text-reviewColor font-inter text-xl mb-12 pr-[250px] pl-[250px] relative">
+            <p className="text-reviewColor font-inter text-xl mb-12 pr-[250px] pl-[250px] relative" style={{lineHeight: "37.5px"}}>
             <Image
               src={"/images/quote.png"}
               alt="quote"
               width={48}
               height={33}
-              className=" absolute left-[17%]"
+              className=" absolute left-[16%]"
             />{" "}{testimonialData[currentTestimonialIndex].text}
             <Image
               src={"/images/quote.png"}
               alt="quote"
               width={48}
               height={33}
-              className=" absolute bottom-0 right-[20%] top-[80%] rotate-180"
+              className=" absolute bottom-0 right-[19%] top-[80%] rotate-180"
             />
             </p>
   
