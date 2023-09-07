@@ -2,8 +2,10 @@ import { LogoList } from "@/Utils/LogoList";
 import Heading from "@/components/Heading";
 import LogoScroll from "@/components/LogoScroll";
 import SectionHeading from "@/components/SectionHeading";
+import TestimonialSlider from "@/components/TestimonialSlider";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
+import { Carousel } from "react-responsive-carousel";
 
 const Review = () => {
   return (
@@ -13,27 +15,38 @@ const Review = () => {
           text={"Customer Testimonials"}
           headingStyle={"text-black mb-8"}
         />
-        <p className=" text-reviewColor font-inter text-xl mb-12 pr-[300px] pl-[300px] relative">
-          <Image src={"/images/quote.png"} alt="quote" width={48} height={33} className=" absolute left-[20%]"/> Armatura's biometric solutions have revolutionized our security
-          systems. Their advanced hardware and software seamlessly integrate,
-          providing an unparalleled level of accuracy and convenience. Our
-          facility is now safer and more efficient thanks to Armatura's
-          cutting-edge technology.<Image src={"/images/quote.png"} alt="quote" width={48} height={33} className=" absolute bottom-0 right-[30%] top-[80%] rotate-180"/>
-        </p>
-        <div className="customer">
-          <div className="customer-img ">
+          {/* <p className=" text-reviewColor font-inter text-xl mb-12 pr-[250px] pl-[250px] relative">
             <Image
-              src={"/images/customer.jpg"}
-              width={66}
-              height={66}
-              className=" rounded-full mt-0 mb-0 mr-auto ml-auto h-[66px] w-[66px]"
+              src={"/images/quote.png"}
+              alt="quote"
+              width={48}
+              height={33}
+              className=" absolute left-[17%]"
+            />{" "}
+            Armatura's biometric solutions have revolutionized our security
+            systems. Their advanced hardware and software{" "}
+            <span className=" font-semibold">seamlessly integrate,</span>
+            providing an{" "}
+            <span className=" font-semibold">
+              unparalleled level of accuracy and convenience.
+            </span>{" "}
+            Our facility is now safer and more efficient thanks to{" "}
+            <span className=" font-semibold">
+              Armatura's cutting-edge technology.
+            </span>
+            <Image
+              src={"/images/quote.png"}
+              alt="quote"
+              width={48}
+              height={33}
+              className=" absolute bottom-0 right-[20%] top-[80%] rotate-180"
             />
-          </div>
-          <div className="customer-info">
-            <h3 className="text-reviewColor font-inter text-xl mt-4">Debiyan Deb</h3>
-            <p className="text-greyColor font-inter text-sm">Chief Executive Officer, Lenscorp</p>
-          </div>
-        </div>
+          </p> */}
+          <TestimonialSlider />
+          
+  
+
+       ÷
       </div>
       <div className="partmers">
         <SectionHeading text={"Our Partners"} />
@@ -55,7 +68,7 @@ const Review = () => {
               alt="logo"
               width={115}
               height={115}
-             style={{width: '25%', height: '25%'}}
+              style={{ width: "25%", height: "25%" }}
             />
           ))}
         </div>

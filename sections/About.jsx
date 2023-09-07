@@ -19,7 +19,7 @@ const About = () => {
             <Image src={"/images/about-img.png"} alt='bg' width={485} height={484}/>
         </div>
       </div>
-      <div className="feature flex mt-12">
+      <div className="feature flex mt-24">
         <div className="feature-img w-1/2 mr-4">
           <div className="upper flex gap-4 mb-4">
             <FeatureBox src={"/images/face.svg"} headText={"Face Recognition"} description={"Seamless Security : Elevating Access Through Face Recognition"}/>
@@ -33,8 +33,8 @@ const About = () => {
         <div className="feature-details">
           <SectionHeading text={"Key Feature"} />
           <Heading text={"Why choose Armatura for biometric solution?"} headingStyle={"text-header mt-6 mb-6"}/>
-          <Paragraph text={"Empowered by our proprietary technology and patents, Armatura pioneers biometric modules and readers that elevate safety and verification accuracy in both physical and logical security realms. Our seamlessly integratable tools and platforms cater to fast-matching, precise user verification across various devices and applications. Committed to next-gen sec"}  paragraphStyle={"text-black "}/>
-          <Paragraph text={"zurity, we ensure biometric data privacy and global compliance. With full adherence to U.S. federal laws, our solutions offer paramount identity and access management (IAM) to safeguard against threats and errors."}  paragraphStyle={"text-black "}/>
+          <Paragraph text={"Empowered by our proprietary technology and patents, Armatura pioneers biometric modules and readers that elevate safety and verification accuracy in both physical and logical security realms. Our seamlessly integratable tools and platforms cater to fast-matching, precise user verification across various devices and applications."}  paragraphStyle={"text-black mb-4"}/>
+          <Paragraph text={"Committed to next-gen security, we ensure biometric data privacy and global compliance. With full adherence to U.S. federal laws, our solutions offer paramount identity and access management (IAM) to safeguard against threats and errors."}  paragraphStyle={"text-black "}/>
         </div>
       </div>
     </div>

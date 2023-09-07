@@ -62,7 +62,7 @@ const Carousel = ({ ImagesList }) => {
         {Array.from({ length: Math.ceil(ImagesList.length / itemsPerPage) }, (_, i) => (
           <div
             key={i}
-            className={`w-2 h-2 mx-2 rounded-full bg-white cursor-pointer transition-all ${
+            className={`w-2 h-2 mx-2 rounded-full bg-gray cursor-pointer transition-all ${
               i === Math.floor(startIndex / itemsPerPage) ? 'bg-white transform-gpu scale-150' : 'bg-gray-500'
             }`}
             onClick={() => handleThumbnailClick(i * itemsPerPage)}
@@ -71,11 +71,13 @@ const Carousel = ({ ImagesList }) => {
       </div>
 
       <button
-        className={`absolute left-0 top-1/2 transform -translate-y-1/2 bg-[#00558B] text-white p-2 rounded-full hover:bg-gray-600 transition duration-300 ml-12 ${
+        className={`absolute left-0 top-1/2 transform -translate-y-1/2 text-white p-2 rounded-full hover:bg-gray-600 transition duration-300 ml-12 ${
           startIndex === 0 ? "opacity-50 cursor-not-allowed" : ""
         }`}
         onClick={prevImages}
         disabled={startIndex === 0}
+        style={{border: "2px solid  #858585",
+            opacity: "0.7"}}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
