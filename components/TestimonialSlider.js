@@ -74,7 +74,7 @@ function TestimonialSlider() {
     };
   
     return (
-      <div className="relative">
+      <div className="relative" style={{maxWidth: "1440px", margin: "0 auto"}}>
         <div className="testimonial-container">
           <div className="testimonial-content">
             <p className="text-reviewColor font-inter text-xl mb-12 pr-[250px] pl-[250px] relative" style={{lineHeight: "37.5px"}}>

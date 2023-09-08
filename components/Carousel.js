@@ -22,7 +22,7 @@ const Carousel = ({ ImagesList }) => {
   const visibleImages = ImagesList.slice(startIndex, startIndex + itemsPerPage);
 
   return (
-    <div className="relative">
+    <div className="relative" style={{maxWidth: "1440px", margin: "0 auto"}}>
       <div className="carousel-images flex justify-evenly mt-16 pb-16 transition-transform">
         {visibleImages.map((image, index) => (
           <div

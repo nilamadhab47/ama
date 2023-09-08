@@ -10,8 +10,8 @@ import {
 
 const Footer = () => {
   return (
-    <>
-      <div className="footerDetails bg-cover bg-no-repeat bg-white flex justify-between text-black pt-16 pb-16 pr-[191px] pl-[74px]" style={{backgroundImage: "url('/images/footerBg.png')"}}>
+    <div className="bg-cover bg-no-repeat bg-white" style={{backgroundImage: "url('/images/footerBg.png')"}}>
+      <div className="footerDetails  flex justify-between text-black pt-16 pb-16 pr-[191px] pl-[74px]" style={{maxWidth: "1440px", margin:"0 auto"}}>
         <div className="logo flex flex-col gap-12">
           <Image
             src={"/images/footerLogo.png"}
@@ -54,10 +54,13 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="footerSign bg-footerBg h-[111px] p-4 flex items-center pl-24 font-poppins text-[#a2a6b6]">
+      <div className="footerSign bg-footerBg h-[111px] p-4">
+        <div className="flex items-center pl-24 font-poppins text-[#a2a6b6]" style={{maxWidth: "1440px", margin: "0 auto "}}>
+
         &#169;2022 - Armatura US
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

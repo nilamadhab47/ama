@@ -8,7 +8,7 @@ import React from 'react'
 const About = () => {
   return (
     <div className=' bg-about-background bg-cover bg-no-repeat h-[1376px] pr-[102px] pl-[102px] pt-[154px]'>
-      <div className="about flex items-center justify-between">
+      <div className="about flex items-center justify-between" style={{maxWidth: "1440px", margin: "0 auto"}}>
         <div className="details w-[56%]">
             <SectionHeading text={"About"} />
             <Heading text={"What is Armatura"} headingStyle={"text-header mt-6 mb-6"}/>
@@ -19,7 +19,7 @@ const About = () => {
             <Image src={"/images/about-img.png"} alt='bg' width={485} height={484}/>
         </div>
       </div>
-      <div className="feature flex mt-24">
+      <div className="feature flex mt-24 mb-0 ml-auto mr-auto" style={{maxWidth: "1440px"}}>
         <div className="feature-img w-1/2 mr-4">
           <div className="upper flex gap-4 mb-4">
             <FeatureBox src={"/images/face.svg"} headText={"Face Recognition"} description={"Seamless Security : Elevating Access Through Face Recognition"}/>

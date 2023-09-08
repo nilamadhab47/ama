@@ -6,7 +6,8 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div className='flex pt-20 pb-20 pr-[101px] pl-[101px] justify-between items-center bg-service-background bg-cover bg-no-repeat'>
+    <div className='bg-service-background bg-cover bg-no-repeat'>
+  <div className='flex pt-20 pb-20 pr-[101px] pl-[101px] justify-between items-center' style={{maxWidth: "1440px", margin: "0 auto"}}>
         <div className="details w-1/2">
             <SectionHeading text={"Industries"} />
             <Heading text={"Industries we Serve"} headingStyle={"text-white mt-8 mb-8"}/>
@@ -17,6 +18,8 @@ const Services = () => {
             <Image src={"/images/servicesImg.png"} alt='imges'  width={478} height={611}/>
         </div>
     </div>
+    </div>
+  
   )
 }
 

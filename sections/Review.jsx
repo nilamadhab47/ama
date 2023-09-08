@@ -6,7 +6,7 @@ import TestimonialSlider from "@/components/TestimonialSlider";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
-
+ 
 const Review = () => {
   return (
     <div className=" bg-review-background bg-cover bg-no-repeat pt-[84px] pr-[102px] pb-[84px] pl-[102px] text-center">

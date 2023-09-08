@@ -89,3 +89,9 @@ body {
 }
 
 /* Add additional styles for testimonials, customer info, etc., as needed */
+
+@media (min-width: 1441px) {
+  .contact {
+    height: 100vh;
+  }
+}
