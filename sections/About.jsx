@@ -33,8 +33,8 @@ const About = () => {
         <div className="feature-details">
           <SectionHeading text={"Key Feature"} />
           <Heading text={"Why choose Armatura for biometric solution?"} headingStyle={"text-header mt-6 mb-6"}/>
-          <Paragraph text={"Empowered by our proprietary technology and patents, Armatura pioneers biometric modules and readers that elevate safety and verification accuracy in both physical and logical security realms. Our seamlessly integratable tools and platforms cater to fast-matching, precise user verification across various devices and applications."}  paragraphStyle={"text-black mb-4"}/>
-          <Paragraph text={"Committed to next-gen security, we ensure biometric data privacy and global compliance. With full adherence to U.S. federal laws, our solutions offer paramount identity and access management (IAM) to safeguard against threats and errors."}  paragraphStyle={"text-black "}/>
+          <Paragraph text={"Empowered by our proprietary technology and patents, Armatura pioneers biometric modules and readers that elevate safety and verification accuracy in both physical and logical security realms. Our seamlessly integratable tools and platforms cater to fast-matching, precise user verification across various devices and applications."}  paragraphStyle={"text-black mb-4 font-normal"}/>
+          <Paragraph text={"Committed to next-gen security, we ensure biometric data privacy and global compliance. With full adherence to U.S. federal laws, our solutions offer paramount identity and access management (IAM) to safeguard against threats and errors."}  paragraphStyle={"text-black font-normal"}/>
         </div>
       </div>
     </div>
